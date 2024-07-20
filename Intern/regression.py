@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 
-data = pd.read_csv('C:\\Users\\durai\\Downloads\\car_specifications.csv')
+data = pd.read_csv('C:\\Users\\durai\\Downloads\\Data\\car_specifications.csv')
 print(data.head())
 print(data.isnull().sum())
 
