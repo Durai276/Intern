@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("C:\\Users\\durai\\Downloads\\ai_sentiment_analysis.csv")
+data = pd.read_csv("C:\\Users\\durai\\Downloads\\Data\\ai_sentiment_analysis.csv")
 
 X_train, X_test, y_train, y_test = train_test_split(data['Text'], data['Sentiment'], test_size=0.2, random_state=42)
 
